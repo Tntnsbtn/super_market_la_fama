@@ -1,0 +1,67 @@
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    background-image: url('../IMG/supermercado.jpg');
+    width: 80%;
+    margin: auto; /* Centra toda la cabecera */
+    border-radius: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: auto;
+    font-family: cursive;
+}
+
+nav ul li{
+    display: block;
+    float: left;
+    margin: 25px;
+}
+
+nav{
+    border: teal solid 4px;
+    margin-top: 10px; /* Funciona de igual forma como un <br> */
+    background-color: #339CFF;
+    height: 80px;
+}
+
+nav ul li:hover{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+body{
+    background-color: aqua;
+}
+
+#texto{
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    border: solid red 1px;
+    padding: 5px;
+    color: rgb(red, green, blue);
+}
+
+section{
+    border: black solid 1px;
+}
+
+aside{
+    border: tan solid 1px;
+    padding: 5px;
+    text-align: center;
+}
+
+article{
+    border: tomato solid 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
